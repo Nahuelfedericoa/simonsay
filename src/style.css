@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    background: #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    background: linear-gradient(to right, rgba(83, 96, 128, 1), rgba(66, 134, 244, 1));
+
+  }
+  .container {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 80vh;
+    max-width: 80vh;
+
+  }
+  .overlay {
+    width: 60%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to right, rgba(55, 59, 68, 0.8), rgba(66, 134, 244, 0.8));
+    transition: all 700ms;
+    
+  }
+  .uno {
+    transform: translateX(-800px);
+  }
+  /* .container:hover .overlay { */
+/* opacity: 0; */
+/* transform: translateX(-800px);
+transition: all 700ms;
+} */
+  .color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: left;
+  }
+
+  .azul {
+    background: #26487f;
+  }
+
+  .azul.light {
+    background: #4c91ff;
+  }
+
+  .violeta {
+    background: #8d6789;
+  }
+
+  .violeta.light {
+    background: #ffbaf8;
+  }
+
+  .amarillo {
+    background: #f0932b;
+  }
+
+  .amarillo.light {
+    background: #eef06e;
+  }
+
+  .verde {
+    background: #36803e;
+  }
+
+  .verde.light {
+    background: #6bff7c;
+  }
+
+  .btn-start {
+    width: 250px;
+    height: 100px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 75%);
+    color: #26487f;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 125px);
+    outline:none ;
+    outline-width: 0 ;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .btn-start:hover {
+    transform: scale(1.1);
+    opacity: 1;
+    transition: 450ms all;
+
+  }
+  .hide {
+    display: none;
+  }
+  *{
+    font-family: arial;
+  }
