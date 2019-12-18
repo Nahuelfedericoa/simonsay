@@ -92,18 +92,19 @@ transition: all 700ms;
   .btn-start {
     width: 250px;
     height: 100px;
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 75%);
-    color: #26487f;
+    border-radius: 4px;
+    background: rgba(38, 72, 127, 75%);
+    color: #fff;
     font-size: 2.5rem;
     position: absolute;
     top: calc(50% - 50px);
     left: calc(50% - 125px);
     outline:none ;
     outline-width: 0 ;
-    box-shadow: none;
+    
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
+    transition: 450ms all;
   }
   .btn-start:hover {
     transform: scale(1.1);
